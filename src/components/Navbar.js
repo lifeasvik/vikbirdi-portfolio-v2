@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import { Link, Route } from "react-router-dom";
 
-<div>
-<ul className="navbar">
-    <li><Link to={'/'} className="nav-link"> Home </Link></li>
-    <li><Link to={'/portfolio'} className="nav-link">Portfolio</Link></li>
-    <li><Link to={'/about'} className="nav-link">About</Link></li>
-    <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
-  </ul>
-</div>
+class navbar extends Component {
+  render() {
+    return (
+      <div>
+            <div><h1>Navbar</h1></div>
+            <div><Link to="/"> Home</Link></div>
+      </div>
+    );
+  }
+}
+
+export default navbar;
