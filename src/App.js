@@ -1,10 +1,16 @@
 import React from 'react';
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import Home from "./components/Home.js";
 import Portfolio from "./components/Portfolio.js";
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
+
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './global';
+import { theme } from './theme';
+import { Burger} from './components/Hamburger';
+import { Menu } from './components/Menu';
 
 class App extends React.Component {
   render() {
