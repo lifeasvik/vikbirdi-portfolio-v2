@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+// import { Link } from "react-router-dom";
+import SideBar from "./Sidebar";
 
 class Portfolio extends Component {
     render() {
         return (
-            <div>
-                <div><Navbar /></div>
-                <div><h1>Portfolio</h1></div>
-                <div><Link to="/"> Home</Link></div>
+            <div><div><SideBar /></div>
+                <div className="pagePadder">
+                    <div><h1>Portfolio</h1></div>
+                </div>
             </div>
         );
     }
