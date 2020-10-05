@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-// import { Link } from "react-router-dom";
 import SideBar from "./Sidebar";
 
-class About extends Component {
+class Languages extends Component {
     render() {
         return (
             <div><div><SideBar /></div>
                 <div className="pagePadder">
-                    <div><h1>About</h1></div>
+                    <div><h1>Languages</h1></div>
                 </div>
                 <div className="pagePadder">
                     <div className="mainSplash">Splash Content Here</div>
@@ -22,4 +21,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Languages;

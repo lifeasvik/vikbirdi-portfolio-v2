@@ -7,6 +7,7 @@ export default props => {
     <Menu {...props}>
       <Link to="/" className="menu-item">Home</Link>
       <Link to="/portfolio" className="menu-item">Portfolio</Link>
+      <Link to="/languages" className="menu-item">Languages</Link>
       <Link to="/about" className="menu-item">About</Link>
       <Link to="/contact" className="menu-item">Contact</Link>
     </Menu>

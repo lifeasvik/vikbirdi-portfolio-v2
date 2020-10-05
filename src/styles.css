@@ -19,14 +19,58 @@ code {
   justify-content: center;
 }
 
-.myLogo{
-  /* padding-top: 10px; */
-  padding-right: 20px;
+
+
+/* MAIN PAGE CSS */
+
+.mainSplash {
   width: 100vw;
-  color: black;
+  height: 280px;
+  background-color: darkgrey;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.mainSplash2 {
+  width: 100vw;
+  height: 450px;
+  background-color: darkgrey;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSplash3 {
+  width: 100vw;
+  height: 450px;
+  background-color: darkgrey;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSplash4 {
+  width: 100vw;
+  height: 450px;
+  background-color: darkgrey;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSplash5 {
+  width: 100vw;
+  height: 450px;
+  background-color: darkgrey;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -35,19 +79,19 @@ code {
 
 #page-wrap {
   text-align: center;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .bm-item {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: black;
   transition: color 0.2s;
 }
 
 .bm-item:hover {
-  color: white;
+  color: grey;
 }
 
 .bm-burger-button {
@@ -72,7 +116,7 @@ code {
 }
 
 .bm-menu {
-  background: #373a47;
+  background: white;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
