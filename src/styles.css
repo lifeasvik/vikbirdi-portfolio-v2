@@ -19,9 +19,90 @@ code {
   justify-content: center;
 }
 
-
+.boxSizer{
+  width: 90vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* MAIN PAGE CSS */
+
+
+
+
+
+
+
+
+
+
+/* Working on animations here */
+
+.mainBox1{
+  width: 100vw;
+  height: 500px;
+  background-color: white;
+}
+
+.mainContent1{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:white; left:200px; top:200px;}
+  25%  {background-color:black; left:200px; top:0px;}
+  50%  {background-color:white; left:200px; top:200px;}
+  75%  {background-color:black; left:0px; top:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainPageTitle{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+/* @keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+} */
 
 .mainSplash {
   width: 100vw;
@@ -31,6 +112,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .mainSplash2 {
