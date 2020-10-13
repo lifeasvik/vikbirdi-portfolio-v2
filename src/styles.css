@@ -37,6 +37,16 @@ code {
 
 /* MAIN PAGE CSS */
 
+.textShaper{
+  width: 90vw;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.textShaper h3{
+  font-weight: 300;
+}
+
 /* First Container Idea */
 
 .homeBox{
