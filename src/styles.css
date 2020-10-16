@@ -59,6 +59,10 @@ code {
   align-items: center;
 }
 
+.homeContent1 ul{
+  list-style-type: none;
+}
+
 .homeContent1{
   width: 90vw;
   padding-top: 100px;
